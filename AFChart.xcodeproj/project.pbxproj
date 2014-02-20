@@ -65,6 +65,7 @@
 		E79371D418B063A200719BF0 /* AFLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFLineChart.m; sourceTree = "<group>"; };
 		E7C2C2DE18B0648400E33835 /* AFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUtilities.h; sourceTree = "<group>"; };
 		E7C2C2DF18B0648400E33835 /* AFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUtilities.m; sourceTree = "<group>"; };
+		E7D9817E18B5AF5D0005339E /* AFChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFChart.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +122,7 @@
 		E79371A418B0638900719BF0 /* AFChart */ = {
 			isa = PBXGroup;
 			children = (
+				E7D9817E18B5AF5D0005339E /* AFChart.h */,
 				E7C2C2DE18B0648400E33835 /* AFUtilities.h */,
 				E7C2C2DF18B0648400E33835 /* AFUtilities.m */,
 				E79371C818B063A200719BF0 /* AFLineChartDefinitions.h */,
