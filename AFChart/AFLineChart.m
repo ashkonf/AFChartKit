@@ -133,12 +133,12 @@
     return self.xAxis.font;
 }
 
-- (void)setTitlesFont:(UIFont *)titlesFont
+- (void)setTitleFont:(UIFont *)titleFont
 {
-    self.titleLabel.font = titlesFont;
+    self.titleLabel.font = titleFont;
 }
 
-- (UIFont *)titlesFont
+- (UIFont *)titleFont
 {
     return self.titleLabel.font;
 }

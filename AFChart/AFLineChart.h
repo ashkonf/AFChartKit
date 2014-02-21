@@ -13,7 +13,7 @@
 @interface AFLineChart : UIView
 
 @property (strong, nonatomic) UIFont *axisFont;
-@property (strong, nonatomic) UIFont *titlesFont;
+@property (strong, nonatomic) UIFont *titleFont;
 @property (strong, nonatomic) NSString *title;
 @property (nonatomic) AFLineChartType chartType;
 @property (nonatomic) CGFloat padding;

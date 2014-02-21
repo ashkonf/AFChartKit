@@ -19,6 +19,16 @@
 		E79371D918B063A200719BF0 /* AFLineChartTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = E79371D218B063A200719BF0 /* AFLineChartTitle.m */; };
 		E79371DA18B063A200719BF0 /* AFLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = E79371D418B063A200719BF0 /* AFLineChart.m */; };
 		E7C2C2E018B0648400E33835 /* AFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C2C2DF18B0648400E33835 /* AFUtilities.m */; };
+		E7D9817F18B5AFCA0005339E /* AFChart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7D9817E18B5AF5D0005339E /* AFChart.h */; };
+		E7D9818018B5AFCA0005339E /* AFUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E7C2C2DE18B0648400E33835 /* AFUtilities.h */; };
+		E7D9818118B5AFCA0005339E /* AFLineChartDefinitions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E79371C818B063A200719BF0 /* AFLineChartDefinitions.h */; };
+		E7D9818218B5AFCA0005339E /* AFLineChartSegment.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E79371C918B063A200719BF0 /* AFLineChartSegment.h */; };
+		E7D9818318B5AFCA0005339E /* AFLineChartBody.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E79371CB18B063A200719BF0 /* AFLineChartBody.h */; };
+		E7D9818418B5AFCA0005339E /* AFLineChartXAxis.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E79371CD18B063A200719BF0 /* AFLineChartXAxis.h */; };
+		E7D9818518B5AFCA0005339E /* AFLineChartYAxis.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E79371CF18B063A200719BF0 /* AFLineChartYAxis.h */; };
+		E7D9818618B5AFCA0005339E /* AFLineChartTitle.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E79371D118B063A200719BF0 /* AFLineChartTitle.h */; };
+		E7D9818718B5AFCA0005339E /* AFLineChart.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E79371D318B063A200719BF0 /* AFLineChart.h */; };
+		E7D9818918B5AFD50005339E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7D9818818B5AFD50005339E /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +48,15 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				E7D9817F18B5AFCA0005339E /* AFChart.h in CopyFiles */,
+				E7D9818018B5AFCA0005339E /* AFUtilities.h in CopyFiles */,
+				E7D9818118B5AFCA0005339E /* AFLineChartDefinitions.h in CopyFiles */,
+				E7D9818218B5AFCA0005339E /* AFLineChartSegment.h in CopyFiles */,
+				E7D9818318B5AFCA0005339E /* AFLineChartBody.h in CopyFiles */,
+				E7D9818418B5AFCA0005339E /* AFLineChartXAxis.h in CopyFiles */,
+				E7D9818518B5AFCA0005339E /* AFLineChartYAxis.h in CopyFiles */,
+				E7D9818618B5AFCA0005339E /* AFLineChartTitle.h in CopyFiles */,
+				E7D9818718B5AFCA0005339E /* AFLineChart.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +85,7 @@
 		E7C2C2DE18B0648400E33835 /* AFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFUtilities.h; sourceTree = "<group>"; };
 		E7C2C2DF18B0648400E33835 /* AFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFUtilities.m; sourceTree = "<group>"; };
 		E7D9817E18B5AF5D0005339E /* AFChart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFChart.h; sourceTree = "<group>"; };
+		E7D9818818B5AFD50005339E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7D9818918B5AFD50005339E /* UIKit.framework in Frameworks */,
 				E79371A318B0638900719BF0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -112,6 +133,7 @@
 		E79371A118B0638900719BF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E7D9818818B5AFD50005339E /* UIKit.framework */,
 				E79371A218B0638900719BF0 /* Foundation.framework */,
 				E79371B018B0638900719BF0 /* XCTest.framework */,
 				E79371B318B0638900719BF0 /* UIKit.framework */,
