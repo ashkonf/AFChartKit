@@ -1,7 +1,7 @@
 AFChart
 =======
 
-A simple charting library for iOS. Right now only line charts are supported. Check out the wiki for documentation.
+A simple charting library for iOS. Right now only line charts are supported. Check out the (still incomplete) wiki for documentation.
 
 
 Below is an example of an AFLineChart instance shown in landscape mode:
