@@ -6,7 +6,7 @@ A simple charting library for iOS. Right now only line charts are supported. Che
 
 Below is an example of an AFLineChart instance shown in landscape mode:
 
-![Alt text](/ScreenshotLandscape.png)
+![Alt text](/ScreenshotLandscape.png "An example of an AFLineChart instance shown in landscape mode.")
 
 The code that generated the chart above:
 
